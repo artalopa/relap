@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  @apply font-bold;
+}
+
+h2 {
+  @apply text-[40px] leading-[48px] md:text-[56px] md:leading-[64px];
+}
+
+.btn {
+  @apply w-[170px] h-12 rounded-full font-bold capitalize;
+}

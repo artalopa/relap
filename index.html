@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap");
+    </style>
+    <title>Responsive Landing Page</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      id="home"
+      class="relative overflow-hidden bg-gradient-to-tr from-[#C86DD7] to-[#3023AE] h-[768px] text-white"
+    >
+      <!-- Navbar -->
+      <div
+        class="bg-base-100 lg:bg-transparent lg:pt-[30px] text-black lg:text-white"
+      >
+        <div class="navbar px-0 lg:px-2 container mx-auto">
+          <div class="navbar-start">
+            <a
+              href="index.html"
+              class="btn btn-ghost hover:bg-transparent !w-fit lg:px-0 normal-case text-2xl lg:text-[40px] lg:leading-[48px] font-bold font-poppins"
+              >RELAP</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul
+              class="menu menu-horizontal px-1 text-base font-semibold [&>li>a]:hover:!text-white"
+            >
+              <li><a href="#home">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#works">Works</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#people">People</a></li>
+              <li><a href="#news">News</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a
+              class="btn btn-ghost lg:bg-transparent lg:border lg:border-white hidden lg:flex lg:text-white text-base"
+              >Contact Us</a
+            >
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost !w-fit lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 right-0"
+              >
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#people">People</a></li>
+                <li><a href="#news">News</a></li>
+                <li>
+                  <a class="btn capitalize content-center !w-full"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar end -->
+
+      <div class="container mx-auto px-[14px] mt-[23px] lg:mt-[150px]">
+        <div class="max-w-[370px]">
+          <h1
+            class="text-[56px] font-bold leading-[64px] md:text-7xl md:leading-[72px]"
+          >
+            Omnis <br />
+            Voluptas
+          </h1>
+          <p
+            class="font-semibold mt-[23px] mb-[34px] md:mt-[26px] md:mb-[46px]"
+          >
+            Temporibus autem quibusdam et aut officiis debitis aut rerum
+            necessitatibus saepe eveniet ut et voluptates repudiandae sint et
+            molestiae non recusandae.
+          </p>
+          <a href="#features" class="btn btn-warning text-white">Explore</a>
+        </div>
+      </div>
+
+      <div class="">
+        <div class="-z-10">
+          <img
+            src="assets/img/header-oval1.svg"
+            alt=""
+            class="absolute right-0 translate-x-1/2 top-1/2 sm:top-[150px] lg:top-[53px] -translate-y-1/2 lg:translate-y-0 pl-1 w-[46px] md:w-auto"
+          />
+          <img
+            src="assets/img/header-oval2.svg"
+            alt=""
+            class="absolute right-[5%] xl:right-[15%] translate-x-1/2 top-1/2 sm:top-[200px] lg:top-[130px] translate-y-1/2 w-[91px] md:w-auto"
+          />
+          <img
+            src="assets/img/header-oval3.svg"
+            alt=""
+            class="absolute -right-5 xl:-right-[100px] translate-x-1/2 xl:translate-x-0 -bottom-2 xl:-bottom-[150px] translate-y-1/2 xl:translate-y-0 w-[300px] md:w-auto"
+          />
+          <img
+            src="assets/img/header-oval4.svg"
+            alt=""
+            class="absolute -left-2 md:left-[20%] lg:left-[35%] bottom-0 translate-y-1/2 w-[59px] md:w-auto"
+          />
+        </div>
+        <img
+          src="assets/img/header-illustration.svg"
+          alt=""
+          class="relative ml-[5%] md:ml-[25%] lg:ml-0 lg:float-right xl:mr-[10%] sm:mt-[-150px] lg:mt-[-450px]"
+        />
+      </div>
+
+      <div
+        class="container left-1/2 -translate-x-1/2 px-[14px] flex justify-center lg:justify-end absolute bottom-8 lg:bottom-12"
+      >
+        <div class="grid grid-cols-3 gap-2 w-fit">
+          <a href="#!">
+            <img src="assets/img/header-fb.svg" alt="" />
+          </a>
+          <a href="#!">
+            <img src="assets/img/header-twitter.svg" alt="" />
+          </a>
+          <a href="#!">
+            <img src="assets/img/header-instagram.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Features -->
+    <section
+      id="features"
+      class="mt-[45px] pb-[400px] md:pb-[48px] md:relative h-[848px] md:h-[768px] flex items-center"
+    >
+      <div
+        class="relative md:static container h-fit mx-auto px-[14px] grid md:grid-cols-2"
+      >
+        <div class="md:pr-10">
+          <h3>Features</h3>
+          <h2 class="mt-[17px] mb-10 md:mb-[55px]">
+            Corporis suscipit <br />laboriosam
+          </h2>
+
+          <!-- Accordion -->
+          <div class="collapse collapse-arrow">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div
+              class="collapse-title text-xl font-bold px-0 flex items-center after:mt-2 after:!static after:ml-2"
+            >
+              Totam rem aperiam
+            </div>
+            <div class="collapse-content px-0">
+              <p class="opacity-70">
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas assumenda est, omnis dolor repellendus.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow">
+            <input type="radio" name="my-accordion-2" />
+            <div
+              class="collapse-title text-xl font-bold px-0 flex items-center after:mt-2 after:!static after:ml-2"
+            >
+              Eaque ipsa quae
+            </div>
+            <div class="collapse-content px-0">
+              <p class="opacity-70">
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas assumenda est, omnis dolor repellendus.
+              </p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow">
+            <input type="radio" name="my-accordion-2" />
+            <div
+              class="collapse-title text-xl font-bold px-0 flex items-center after:mt-2 after:!static after:ml-2"
+            >
+              Inventore veritatis
+            </div>
+            <div class="collapse-content px-0">
+              <p class="opacity-70">
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas assumenda est, omnis dolor repellendus.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image/video -->
+        <div
+          class="absolute top-full md:top-0 mt-[58px] md:mt-[100px] right-0 h-[272px] w-[95%] md:w-1/2"
+        >
+          <div
+            class="relative w-full h-[272px] md:h-[544px] bg-gradient-to-bl from-[#3023AE] to-[#C86DD7] overflow-x-clip"
+          >
+            <img
+              src="assets/img/features-image.png"
+              alt=""
+              class="w-full h-full absolute left-4 bottom-4 md:left-[33px] md:bottom-[33px] object-cover"
+            />
+          </div>
+        </div>
+        <!-- Image/video end -->
+        <!-- Accordion end -->
+      </div>
+    </section>
+    <!-- Features end -->
+
+    <!-- Works -->
+    <section id="works" class="bg-[#FDF2FF] pt-[29px] md:pt-[61px] pb-12">
+      <div
+        class="container mx-auto px-[14px] mb-[46px] md:mb-[54px] grid md:grid-cols-2 md:place-items-center"
+      >
+        <div>
+          <h3>Works</h3>
+          <h2 class="mt-[17px] mb-6">Ullam corporis suscipit</h2>
+        </div>
+        <div>
+          <p class="opacity-70">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+            fugit, sed quia consequuntur magni dolores eos qui ratione
+            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
+            ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+            numquam eius modi tempora incidunt ut labore et dolore magnam
+            aliquam quaerat voluptatem.
+          </p>
+        </div>
+      </div>
+
+      <!-- Tabs -->
+      <div class="container mx-auto px-[14px]">
+        <div class="flex flex-wrap gap-8 mb-[42px] [&>a]:opacity-70">
+          <a class="font-semibold !opacity-100">Quis Autem</a>
+          <a>Reprehenderit</a>
+          <a>Voluptate</a>
+          <a>Molestiae</a>
+          <a>Consequatur</a>
+        </div>
+
+        <!-- gallery -->
+        <div
+          class="grid sm:grid-cols-2 lg:grid-cols-3 gap-[17px] lg:gap-[30px]"
+        >
+          <div
+            class="overflow-hidden bg-cover h-[244px] md:h-[226px] xl:h-[292px]"
+            style="background-image: url('assets/img/works-1.png')"
+          >
+            <div
+              class="w-full h-full opacity-0 hover:opacity-100 transition flex items-end bg-[#310039] bg-opacity-75 text-white"
+            >
+              <div class="px-8 py-[26px]">
+                <a href="#!" class="text-xl font-bold font-poppins"
+                  >Exercitation
+                </a>
+
+                <p>Ullamco laboris</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="overflow-hidden bg-cover h-[244px] md:h-[226px] xl:h-[292px]"
+            style="background-image: url('assets/img/works-2.png')"
+          >
+            <div
+              class="w-full h-full opacity-0 hover:opacity-100 transition flex items-end bg-[#310039] bg-opacity-75 text-white"
+            >
+              <div class="px-8 py-[26px]">
+                <a href="#!" class="text-xl font-bold font-poppins"
+                  >Exercitation
+                </a>
+
+                <p>Ullamco laboris</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="overflow-hidden bg-cover h-[244px] md:h-[226px] xl:h-[292px] sm:hidden lg:block"
+            style="background-image: url('assets/img/works-3.png')"
+          >
+            <div
+              class="w-full h-full opacity-0 hover:opacity-100 transition flex items-end bg-[#310039] bg-opacity-75 text-white"
+            >
+              <div class="px-8 py-[26px]">
+                <a href="#!" class="text-xl font-bold font-poppins"
+                  >Exercitation
+                </a>
+
+                <p>Ullamco laboris</p>
+              </div>
+            </div>
+          </div>
+          <!-- gallery end -->
+        </div>
+
+        <div class="flex justify-center">
+          <a
+            href="#!"
+            class="btn btn-primary border-none text-white bg-[#C86DD7] mt-8 md:mt-12"
+            >All works</a
+          >
+        </div>
+      </div>
+      <!-- Tabs end -->
+    </section>
+    <!-- Works end -->
+
+    <!-- About -->
+    <section
+      id="about"
+      class="pt-[38px] pb-16 md:pt-[71px] md:pb-[100px] text-center container mx-auto px-[14px]"
+    >
+      <h2>Fugiat quo</h2>
+      <p class="text-semibold pt-6 pb-8 max-w-[570px] mx-auto">
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam.
+      </p>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-2">
+        <!-- items -->
+        <div
+          class="flex flex-col items-center pt-10 pb-8 px-6 hover:shadow-relap transition"
+        >
+          <img src="assets/img/about-logo1.svg" alt="" class="w-12" />
+          <h3 class="text-2xl pt-[13px] pb-[9px]">Consequuntur</h3>
+          <p class="max-w-[322px] mx-auto opacity-70">
+            Enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+            fugit
+          </p>
+        </div>
+        <!-- items end -->
+
+        <!-- items -->
+        <div
+          class="flex flex-col items-center pt-10 pb-8 px-6 hover:shadow-relap transition"
+        >
+          <img src="assets/img/about-logo2.svg" alt="" class="w-12" />
+          <h3 class="text-2xl pt-[13px] pb-[9px]">Voluptatem</h3>
+          <p class="max-w-[322px] mx-auto opacity-70">
+            Sed quia non numquam eius modi tempora incidunt ut labore et dolore
+            magnam
+          </p>
+        </div>
+        <!-- items end -->
+
+        <!-- items -->
+        <div
+          class="flex flex-col items-center pt-10 pb-8 px-6 hover:shadow-relap transition"
+        >
+          <img src="assets/img/about-logo3.svg" alt="" class="w-12" />
+          <h3 class="text-2xl pt-[13px] pb-[9px]">Quisquam</h3>
+          <p class="max-w-[322px] mx-auto opacity-70">
+            Quis nostrum exercitationem ullam corporis suscipit laboriosam
+          </p>
+        </div>
+        <!-- items end -->
+
+        <!-- items -->
+        <div
+          class="flex flex-col items-center pt-10 pb-8 px-6 hover:shadow-relap transition"
+        >
+          <img src="assets/img/about-logo4.svg" alt="" class="w-12" />
+          <h3 class="text-2xl pt-[13px] pb-[9px]">Aliquid</h3>
+          <p class="max-w-[322px] mx-auto opacity-70">
+            Quis autem vel eum iure reprehenderit voluptate velit esse quam
+            nihil
+          </p>
+        </div>
+        <!-- items end -->
+
+        <!-- items -->
+        <div
+          class="flex flex-col items-center pt-10 pb-8 px-6 hover:shadow-relap transition"
+        >
+          <img src="assets/img/about-logo5.svg" alt="" class="w-12" />
+          <h3 class="text-2xl pt-[13px] pb-[9px]">Excepteur</h3>
+          <p class="max-w-[322px] mx-auto opacity-70">
+            Sint occaecat cupidatat non proident culpa qui officia deserunt
+            mollit anim
+          </p>
+        </div>
+        <!-- items end -->
+
+        <!-- items -->
+        <div
+          class="flex flex-col items-center pt-10 pb-8 px-6 hover:shadow-relap transition"
+        >
+          <img src="assets/img/about-logo6.svg" alt="" class="w-12" />
+          <h3 class="text-2xl pt-[13px] pb-[9px]">Accusamus</h3>
+          <p class="max-w-[322px] mx-auto opacity-70">
+            Odio dignissimos ducimus qui blanditiis praesentium voluptatum
+          </p>
+        </div>
+        <!-- items end -->
+      </div>
+    </section>
+    <!-- About end -->
+
+    <!-- People -->
+    <section
+      id="people"
+      class="relative bg-[#3023AE] pt-[100px] pb-[80px] lg:pt-[160px] lg:pb-[212px] overflow-x-clip"
+    >
+      <img
+        src="assets/img/people-circle1.svg"
+        alt=""
+        class="absolute -top-[29px] -right-[50px] lg:right-[60%]"
+      />
+      <img
+        src="assets/img/people-circle2.svg"
+        alt=""
+        class="absolute -bottom-[210px] -left-[119px] lg:-bottom-[112px]"
+      />
+      <img
+        src="assets/img/people-circle3.svg"
+        alt=""
+        class="absolute -bottom-[98px] -right-[70px] lg:-bottom-[90px] lg:right-1/2 lg:translate-x-1/2"
+      />
+      <div class="container mx-auto px-[14px] grid md:grid-cols-2 gap-11">
+        <div
+          class="relative w-[90%] max-w-[297px] xl:w-[370px] xl:max-w-none aspect-square bg-cover mx-auto place-self-center"
+          style="background-image: url(assets/img/people-center.png)"
+        >
+          <div class="w-full h-full bg-[#3023AE] opacity-75 rounded-full"></div>
+          <img
+            src="assets/img/people-1.png"
+            alt=""
+            class="absolute -left-6 -top-3 w-[136px] xl:-left-[31px] xl:-top-4 xl:w-[170px] rounded-full shadow-relap2"
+          />
+          <img
+            src="assets/img/people-2.png"
+            alt=""
+            class="absolute left-0 bottom-[34px] w-[93px] xl:bottom-[41px] xl:w-[114px] rounded-full shadow-relap2"
+          />
+          <img
+            src="assets/img/people-3.png"
+            alt=""
+            class="absolute right-14 -bottom-2 w-[66px] xl:right-[70px] xl:-bottom-[10px] xl:w-[82px] rounded-full shadow-relap2"
+          />
+          <img
+            src="assets/img/people-4.png"
+            alt=""
+            class="absolute -right-[9px] bottom-20 w-10 xl:-right-3 xl:bottom-[98px] xl:w-[50px] rounded-full shadow-relap2"
+          />
+          <img
+            src="assets/img/people-5.png"
+            alt=""
+            class="absolute -right-6 top-[33px] w-[92px] xl:-right-[30px] xl:top-10 xl:w-[114px] rounded-full shadow-relap2"
+          />
+        </div>
+
+        <div class="text-white">
+          <h3>Repellendus</h3>
+          <h2 class="mt-[17px] mb-6">
+            Temporibus <br />
+            quibusdam
+          </h2>
+          <p>
+            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+            impedit quo minus id quod maxime placeat facere possimus, omnis
+            voluptas assumenda est.
+          </p>
+          <a
+            href="#!"
+            class="btn btn-warning mt-[31px] text-white relative z-10"
+            >Our team</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- People end -->
+
+    <!-- People #2 -->
+    <section
+      class="relative z-10 bg-white pt-[54px] pb-[60px] md:pt-[71px] md:pb-[90px]"
+    >
+      <div class="container mx-auto px-[14px]">
+        <div class="text-center">
+          <h2>Officis debitis</h2>
+          <p class="pt-6 pb-12 md:pb-16 max-w-[570px] mx-auto">
+            Itaque earum rerum hic tenetur a sapiente delectus, ut aut
+            reiciendis voluptatibus maiores alias consequatur aut perferendis
+            doloribus asperiores repella.
+          </p>
+        </div>
+
+        <div
+          class="grid md:flex md:flex-wrap md:justify-center lg:grid lg:grid-cols-3 gap-[30px]"
+        >
+          <!-- card -->
+          <div
+            class="shadow-relap md:w-[calc(50%-30px)] lg:w-auto px-[30px] pt-[32px] pb-[42px]"
+          >
+            <img
+              src="assets/img/people2-1.png"
+              alt=""
+              class="rounded-full w-16"
+            />
+            <p class="pt-[14px] pb-4 opacity-70">
+              "Voluptatem accusantium doloremque laudantium, totam rem aperiam,
+              eaque ipsa quae ab illo inventore veritatis"
+            </p>
+            <p class="font-semibold">Evelyn Allen</p>
+          </div>
+          <!-- card end -->
+
+          <!-- card -->
+          <div
+            class="shadow-relap md:w-[calc(50%-30px)] lg:w-auto px-[30px] pt-[32px] pb-[42px]"
+          >
+            <img
+              src="assets/img/people2-2.png"
+              alt=""
+              class="rounded-full w-16"
+            />
+            <p class="pt-[14px] pb-4 opacity-70">
+              "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores"
+            </p>
+            <p class="font-semibold">Malin Quist</p>
+          </div>
+          <!-- card end -->
+
+          <!-- card -->
+          <div
+            class="shadow-relap md:w-[calc(50%-30px)] lg:w-auto px-[30px] pt-[32px] pb-[42px]"
+          >
+            <img
+              src="assets/img/people2-3.png"
+              alt=""
+              class="rounded-full w-16"
+            />
+            <p class="pt-[14px] pb-4 opacity-70">
+              "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+              consectetur, adipisci numquam eius"
+            </p>
+            <p class="font-semibold">Pan Su</p>
+          </div>
+          <!-- card end -->
+        </div>
+
+        <div
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 place-items-center pt-[70px] md:pt-[90px]"
+        >
+          <img src="assets/img/people2-logo1.svg" alt="" />
+          <img src="assets/img/people2-logo2.svg" alt="" />
+          <img src="assets/img/people2-logo3.svg" alt="" />
+          <img src="assets/img/people2-logo4.svg" alt="" />
+          <img src="assets/img/people2-logo5.svg" alt="" />
+          <img src="assets/img/people2-logo6.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- People #2 end -->
+
+    <!-- News -->
+    <section
+      id="news"
+      class="bg-[#FDF2FF] pt-[45px] pb-[49px] md:pt-[144px] md:pb-20"
+    >
+      <div class="container mx-auto px-[14px]">
+        <div class="grid md:grid-cols-2">
+          <div>
+            <h3>Nisi ut aliquid</h3>
+            <h2 class="pt-[17px] pb-6">Omnis voluptas assumenda</h2>
+            <p class="pb-[29px] md:pb-8 max-w-[470px]">
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est.
+            </p>
+            <a
+              href="#!"
+              class="btn btn-primary bg-[#C86DD7] border-none text-white mb-[60px]"
+              >Our blog</a
+            >
+          </div>
+
+          <div>
+            <div
+              class="relative w-[96%] lg:w-[93%] h-[85vw] max-w-[570pxpx] max-h-[544px] bg-gradient-to-bl from-[#3023AE] to-[#C86DD7]"
+            >
+              <div
+                class="absolute bottom-[19px] left-[17px] lg:bottom-8 lg:left-[30px] w-full h-full max-w-[570pxpx] max-h-[544px] bg-cover text-white"
+                style="background-image: url(assets/img/news-image.png)"
+              >
+                <div
+                  class="h-full py-[26px] px-[29px] lg:py-[46px] lg:px-12 flex flex-col justify-end items-start bg-slate-700 bg-opacity-25"
+                >
+                  <h3 class="text-2xl"><a href="#!">Itaque earum rerum</a></h3>
+                  <p class="pt-[9px] pb-[21px] lg:pb-4">
+                    Temporibus autem quibusdam et aut officiis debitis aut rerum
+                    necessitatibus saepe eveniet ut et voluptates
+                  </p>
+                  <div class="flex gap-5 items-center">
+                    <img
+                      src="assets/img/news-pp.png"
+                      alt=""
+                      class="w-12 rounded-full"
+                    />
+                    <p>Adaora Azubuike</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- News end -->
+
+    <!-- Footer -->
+    <footer
+      id="contact"
+      class="pt-[70px] pb-[58px] md:pt-[135px] md:pb-[74px] bg-cover"
+      style="background-image: url(assets/img/Footer-bg.png)"
+    >
+      <div class="container mx-auto px-[14px]">
+        <div class="text-center w-fit mx-auto">
+          <h2>Contact Us</h2>
+          <p class="pt-6 pb-[30px] md:pb-8 max-w-[570px] font-semibold">
+            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+            quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat
+            quo voluptas.
+          </p>
+          <form class="flex flex-wrap justify-center">
+            <input
+              class="w-full md:w-[370px] h-12 px-4 border border-slate-300"
+              type="text"
+              placeholder="Your email"
+              required
+            />
+            <input
+              class="btn btn-primary border-none bg-[#C86DD7] text-white md:mx-[30px] mt-4 md:mt-0"
+              type="submit"
+              value="Send"
+            />
+          </form>
+        </div>
+      </div>
+
+      <!-- garis -->
+
+      <div
+        class="border-t border-t-slate-300 mt-[70px] md:mt-[135px] pt-[61px]"
+      >
+        <div class="container mx-auto px-[14px]">
+          <div
+            class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-8 place-items-end justify-items-start"
+          >
+            <div class="flex flex-col gap-2">
+              <p class="font-semibold">Consectetur</p>
+              <a href="#!">Adipiscing</a>
+              <a href="#!">Elit</a>
+              <a href="#!">Eiusmod</a>
+            </div>
+            <div class="flex flex-col gap-2">
+              <p class="font-semibold">Tempor</p>
+              <a href="#!">Incididunt</a>
+              <a href="#!">Labore</a>
+              <a href="#!">Dolore</a>
+            </div>
+            <div class="flex flex-col gap-2">
+              <p class="font-semibold">Magna</p>
+              <a href="#!">Aliqua</a>
+              <a href="#!">Minim</a>
+              <a href="#!">Veniam</a>
+            </div>
+
+            <!-- sosmed -->
+            <div>
+              <div class="grid grid-cols-3 gap-2 w-fit">
+                <a href="#!">
+                  <img src="assets/img/Footer-fb.svg" alt="" />
+                </a>
+                <a href="#!">
+                  <img src="assets/img/Footer-twitter.svg" alt="" />
+                </a>
+                <a href="#!">
+                  <img src="assets/img/Footer-instagram.svg" alt="" />
+                </a>
+              </div>
+              <p class="pt-[14px] w-fit">
+                Copyright 2023 | Designed by
+                <a
+                  class="text-[#C86DD7] font-semibold"
+                  href="https://ui4free.com/website-templates/relap-responsive-landings.htm"
+                  target="_blank"
+                  >dianfei</a
+                >
+                | Web page by
+                <span class="text-[#C86DD7] font-semibold">artalopa</span>.
+              </p>
+            </div>
+            <!-- sosmed end -->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+  </body>
+</html>
